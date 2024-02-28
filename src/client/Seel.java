@@ -1,3 +1,5 @@
+package client;
+
 import client.Animal;
 import client.Owner;
 
