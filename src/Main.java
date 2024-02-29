@@ -9,6 +9,7 @@ public class Main {
         Cat nyaasu = new Cat("Мяут", 4, LocalDate.of(2022, 11, 27), new Owner());
         Seel seal = new Seel("Сфил", 39, LocalDate.of(2023, 05, 14), new Owner() );
         FlyingFish flyingFish = new FlyingFish("Шарпедо", 88, LocalDate.of(1975, 7, 18), new Owner());
+        Straus doduo = new Straus("Додуо", 39, LocalDate.of(2020, 12, 30), new Owner());
         System.out.println(nyaasu.getType());
         System.out.println(nyaasu);
         System.out.println("Навыки:");
@@ -23,6 +24,11 @@ public class Main {
         System.out.println(flyingFish);
         System.out.println("Навыки:");
         flyingFish.skills();
+        System.out.println();
+        System.out.println(doduo.getType());
+        System.out.println(doduo);
+        System.out.println("Навыки:");
+        doduo.skills();
 
     }
 }
