@@ -11,6 +11,7 @@ public class Main {
         FlyingFish flyingFish = new FlyingFish("Гаярдос", 88, LocalDate.of(1975, 7, 18), new Owner());
         Straus doduo = new Straus("Додуо", 39, LocalDate.of(2020, 12, 30), new Owner());
         Swift sterly = new Swift("Старли", 2, LocalDate.of(2023, 06, 15), new Owner());
+        Duck ducklett = new Duck("Даклетт", 5, LocalDate.of(2023,02, 24), new Owner());
         System.out.println(nyaasu.getType());
         System.out.println(nyaasu);
         System.out.println("Навыки:");
@@ -35,5 +36,10 @@ public class Main {
         System.out.println(sterly);
         System.out.println("Навыки:");
         sterly.skills();
+        System.out.println();
+        System.out.println(ducklett.getType());
+        System.out.println(ducklett);
+        System.out.println("Навыки:");
+        ducklett.skills();
     }
 }
